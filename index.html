@@ -21,7 +21,7 @@
     <header class="">
       <nav class="p-5 bg-white drop-shadow-xl">
         <div
-          class="md:flex md:items-center md:justify-between sm:container md:container lg:container xl:container 2xl:container md:mx-auto mx-auto"
+          class="md:flex md:items-center md:justify-between container md:mx-auto mx-auto"
         >
           <div class="flex justify-between items-center">
             <span class="cursor-pointer"
@@ -55,7 +55,7 @@
             </li>
 
             <button
-              class="bg-cyan-400 text-white px-6 py-2 ml-4 hover:bg-cyan-600 rounded"
+              class="bg-cyan-400 text-white px-6 py-2 ml-4 hover:bg-cyan-600 rounded bg-gradient-to-b from-cyan-500 to-[#A4BC46] hover:bg-gradient-to-t from-cyan-500 to-[#A4BC46]"
             >
               BuyNow!
             </button>
@@ -71,23 +71,130 @@
         class="bg-[#FFFBF0] md:flex md:items-center md:justify-between mx-auto"
       >
         <div
-          class="sm:container md:container lg:container xl:container 2xl:container text-center flex flex-col items-center sm:flex sm:flex-col sm:items-center md:flex md:flex-row md:justify-center md:items-center mx-auto gap-3 py-12"
+          class="container text-center flex flex-col items-center sm:flex sm:flex-col sm:items-center md:flex md:flex-row md:justify-center md:items-center mx-auto gap-3 py-20"
         >
-          <div class="text-start">
-            <h1 class="uppercase font-sans">
-              <span class="text-[#FABE4C] text-6xl font-semibold"
+          <div class="text-start px-6 md:pr-10">
+            <h1 class="uppercase tracking-tighter leading-10">
+              <span class="text-[#FABE4C] text-6xl font-bold"
                 >Be the Penguins </span
               ><br />
-              of Winter
+              <span class="text-[#363958] text-6xl font-bold tracking-tighter"
+                >of Winter</span
+              >
             </h1>
-            <p>
+            <p class="text-[#3E3E3E] text-">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <button>Buy Now</button>
+            <button
+              class="bg-gradient-to-b from-cyan-500 to-[#A4BC46] hover:bg-gradient-to-t from-cyan-500 to-[#A4BC46] px-6 py-3 mt-4 text-white rounded flex items-center justify-center gap-2"
+            >
+              <ion-icon name="cart-outline"></ion-icon>Buy Now
+            </button>
           </div>
           <div>
             <img class="w-80" src="images/model.png" alt="model img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- women section -->
+      <section class="container mx-auto mb-10">
+        <h1 class="text-4xl font-bold my-8 text-[#363958]">Woman Jacket</h1>
+        <div
+          class="drop-shadow-xl md:mx-4 gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+        >
+          <!-- card 1 -->
+          <div class="bg-white drop-shadow-xl rounded-xl drop-shadow-xl">
+            <div
+              class="drop-shadow-xl rounded-xl flex justify-center bg-[#f1f1f1] p-6 m-6"
+            >
+              <img
+                class="w-90 drop-shadow-2xl"
+                src="images/jacket-1.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col gap-2 mx-4 my-2 items-start">
+              <h2 class="font-bold text-2xl text-[#363958]">
+                Yellow Coat Jacket
+              </h2>
+              <p class="text-base text-[#3E3E3E]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div class="flex items-center justify-between mx-4 my-2">
+              <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+
+              <button
+                class="bg-gradient-to-b from-cyan-500 to-[#A4BC46] hover:bg-gradient-to-t from-cyan-500 to-[#A4BC46] md:px-2 px-6 py-3 text-white rounded flex items-center justify-center gap-2"
+              >
+                <ion-icon name="cart-outline"></ion-icon>Buy Now
+              </button>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="bg-white drop-shadow-xl rounded-xl drop-shadow-xl">
+            <div
+              class="drop-shadow-xl rounded-xl flex justify-center bg-[#f1f1f1] p-6 m-6"
+            >
+              <img
+                class="w-100 drop-shadow-2xl"
+                src="images/jacket-2.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col gap-2 mx-4 my-2 items-start">
+              <h2 class="font-bold text-2xl text-[#363958]">
+                Yellow Coat Jacket
+              </h2>
+              <p class="text-base text-[#3E3E3E]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div class="flex items-center justify-between mx-4 my-2">
+              <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+
+              <button
+                class="bg-gradient-to-b from-cyan-500 to-[#A4BC46] hover:bg-gradient-to-t from-cyan-500 to-[#A4BC46] md:px-2 px-6 py-3 text-white rounded flex items-center justify-center gap-2"
+              >
+                <ion-icon name="cart-outline"></ion-icon>Buy Now
+              </button>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="bg-white drop-shadow-xl rounded-xl drop-shadow-xl">
+            <div
+              class="drop-shadow-xl rounded-xl flex justify-center bg-[#f1f1f1] p-6 m-6"
+            >
+              <img
+                class="w-90 drop-shadow-2xl"
+                src="images/jacket-3.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col gap-2 mx-4 my-2 items-start">
+              <h2 class="font-bold text-2xl text-[#363958]">
+                Yellow Coat Jacket
+              </h2>
+              <p class="text-base text-[#3E3E3E]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div class="flex items-center justify-between mx-4 my-2">
+              <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+
+              <button
+                class="bg-gradient-to-b from-cyan-500 to-[#A4BC46] hover:bg-gradient-to-t from-cyan-500 to-[#A4BC46] md:px-2 px-6 py-3 text-white rounded flex items-center justify-center gap-2"
+              >
+                <ion-icon name="cart-outline"></ion-icon>Buy Now
+              </button>
+            </div>
           </div>
         </div>
       </section>
